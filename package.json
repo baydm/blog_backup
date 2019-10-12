@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "devDependencies": {
+    "vuepress": "^1.1.0"
+  },
+  "scripts": {
+    "s": "vuepress dev docs",
+    "g": "vuepress build docs",
+    "b": "bash deploy.sh",
+    "n:e": "bash new_essay.sh",
+    "n:a": "bash new_alg.sh"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "highlight.js": "^9.15.10",
+    "vue-highlight.js": "^3.1.0",
+    "vuepress-theme-reco": "^1.0.8-alpha.5"
+  }
+}
