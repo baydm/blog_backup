@@ -26,8 +26,14 @@ rm -rf dist
 mkdir dist
 
 # 备份源码
-cd ../../../blog_backup
+cd ../../
+if [ -d "_git" ]; then
+ mv  _git .git
+fi
 
 git add .
 git commit -m '备份博客源码'
 git push origin master 
+
+# 修改.git名称
+mv .git _git
