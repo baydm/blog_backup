@@ -52,11 +52,11 @@ date: ${time}
 :::
 " > "${data}.md"
 # 添加左侧导航栏
- sed -i "7i '${data}'," sidebar.js
+ sed -i "2i '${data}'," sidebar.js
 # 添加源码目录
-cd src
-mkdir $1
-cd $1
+cd code
+mkdir "$1"
+cd "$1"
 
 # 添加Java源码
 echo "
