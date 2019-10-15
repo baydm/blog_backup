@@ -7,7 +7,7 @@ set -e
 # if [$1 = a];then
 #     cd docs/algorithm
 # else 
-cd docs/algorithm
+cd docs/algorithm/simple
 # fi
 
 data=$(date "+%Y%m%d%H%M%S")
@@ -19,7 +19,10 @@ date: ${time}
 # $1
 ## 题目
 
-## 示例
+### 示例
+\`\`\`
+
+\`\`\`
 
 ## 我的方案
 >
@@ -51,8 +54,7 @@ date: ${time}
 ##### 
 :::
 " > "${data}.md"
-# 添加左侧导航栏
- sed -i "2i '${data}'," sidebar.js
+
 # 添加源码目录
 cd code
 mkdir "$1"
@@ -75,6 +77,12 @@ echo "
 main() {
     
 }" > Code.dart
+
+
+cd ../
+
+# 添加左侧导航栏
+sed -i "2i 'simple/${data}'," sidebar.js
 
  echo "$1创建成功！"
 else
