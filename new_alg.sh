@@ -79,7 +79,7 @@ main() {
 }" > Code.dart
 
 
-cd ../
+cd ../../../
 
 # 添加左侧导航栏
 sed -i "2i 'simple/${data}'," sidebar.js

@@ -10,7 +10,7 @@ module.exports = {
     base: '/', // 这是部署到github相关的配置
     // 代码块显示行号
     markdown: { lineNumbers: true },
-    // theme: 'reco',
+    // theme: '@vuepress/vue',
     themeConfig: {
         // 作者
         author: 'JsonYe',
@@ -30,6 +30,6 @@ module.exports = {
         },
         // sidebar: 'auto'
         // 显示华为文案
-        huawei: true
+        // huawei: true
     }
 };
