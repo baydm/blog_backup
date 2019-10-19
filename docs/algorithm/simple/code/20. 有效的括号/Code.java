@@ -4,17 +4,11 @@ import java.util.List;
 class Code {
     public static void main(String[] args) {
         // System.out.println(isValid(args[0]));
-        System.out.println((int) '[');
-        System.out.println((int) '{');
-        System.out.println((int) '(');
-        System.out.println((int) ')');
-        System.out.println((int) '}');
-        System.out.println((int) ']');
-        // System.out.println(isValid("[]"));
-        // System.out.println(isValid("({[]})"));
-        // System.out.println(isValid("]"));
-        // System.out.println(isValid("{[]()}"));
-        // System.out.println(isValid("{[]}()[][]({[]})"));
+        System.out.println(isValid("[]"));
+        System.out.println(isValid("({[]})"));
+        System.out.println(isValid("]"));
+        System.out.println(isValid("{[]()}"));
+        System.out.println(isValid("{[]}()[][]({[]})"));
     }
 
     public static boolean isValid2(String s) {
