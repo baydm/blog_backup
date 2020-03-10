@@ -1362,7 +1362,7 @@
   position:absolute;
   left:-2px;
   top:51px;
-  width:375px;
+  width:395px;
   height:568px;
   overflow:hidden;
 }
@@ -1371,7 +1371,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:375px;
+  width:395px;
   height:568px;
   overflow:auto;
   -webkit-overflow-scrolling:touch;
@@ -1796,7 +1796,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:375px;
+  width:395px;
   height:568px;
   visibility:hidden;
   overflow:auto;
@@ -2206,7 +2206,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:375px;
+  width:395px;
   height:568px;
   visibility:hidden;
   overflow:auto;
